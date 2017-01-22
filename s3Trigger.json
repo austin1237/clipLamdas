@@ -1,0 +1,27 @@
+{
+    "Records":[
+      {
+         "eventVersion":"2.0",
+         "eventSource":"aws:s3",
+         "awsRegion":"us-west-2",
+         "eventName":"event-type",
+         "userIdentity":{
+            "principalId":"Amazon-customer-ID-of-the-user-who-caused-the-event"
+         },
+         "requestParameters":{
+            "sourceIPAddress":"ip-address-where-request-came-from"
+         },
+         "responseElements":{
+            "x-amz-request-id":"Amazon S3 generated request ID",
+            "x-amz-id-2":"Amazon S3 host that processed the request"
+         },
+         "s3":{
+            "bucket":{
+               "name":"streamclips"
+            },
+            "object":{
+               "key":"saltybet"
+            }
+         }
+    }]
+}

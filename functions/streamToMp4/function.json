@@ -1,0 +1,6 @@
+{
+    "environment":{
+        "accessKey": "YOUR AWS IAM USERID",
+        "secretKey": "YOUR AWS IAM SECRET KEY"
+    }
+}

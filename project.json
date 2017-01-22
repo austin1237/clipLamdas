@@ -1,0 +1,8 @@
+{
+  "name": "clipLamdas",
+  "description": "A collection of ultility functions related to videos",
+  "memory": 128,
+  "timeout": 5,
+  "role": "YOUR AWS ARN THAT HAS LAMDA PERMISSIONS",
+  "environment": {}
+}
